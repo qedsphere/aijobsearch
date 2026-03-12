@@ -22,84 +22,77 @@ const App: React.FC = () => {
 
   // Resume State
   const [resume, setResume] = useState<Resume>({
-    fullName: "Jason Dong",
-    email: "jasondong1@berkeley.edu",
-    phone: "(909) 967-5018",
-    summary: "Mathematics and Computer Science student at UC Berkeley with extensive research experience in quantum algorithms, formal verification, and theoretical computer science. Proven track record in mathematical formalization using Lean and molecular simulation for advanced material science.",
+    fullName: "",
+    email: "",
+    phone: "",
+    summary: "Mathematics and Computer Science student with extensive research experience in quantum algorithms, formal verification, and theoretical computer science. Proven track record in mathematical formalization and molecular simulation for advanced material science.",
     skills: "Quantum Algorithms, Lean Prover, QuTiP, ABINIT, Python, Machine Learning (Deep Learning, LLMs), Real Analysis, Abstract Algebra, Topology, Quantum Mechanics, Statistical Mechanics, Technical Writing.",
     experience: [
       {
-        company: "Berkeley Ion Trap Group",
-        date: "January 2026 – Present",
-        details: "Designing Lindbladian ground-state preparation circuits for qubit–qumode trapped-ion architectures using QuTiP; managing upcoming hardware benchmarking initiatives.",
+        company: "Ion Trap Research Group",
+        date: "2026 – Present",
+        details: "Designing quantum circuits for trapped-ion architectures using simulation tools; managing hardware benchmarking initiatives.",
         id: "1772824849442exp0",
         title: "Quantum Algorithms Researcher"
       },
       {
-        company: "TCSlib",
-        date: "January 2026 – Present",
-        details: "Collaborating with Venkat Guruswami’s research group to formalize Boolean algebra and foundational complexity-theoretic results.",
+        company: "Theory Research Lab",
+        date: "2026 – Present",
+        details: "Collaborating on formalizing Boolean algebra and foundational complexity-theoretic results.",
         id: "1772824849442exp1",
         title: "Theoretical Computer Science Formalization Researcher"
       },
       {
-        company: "URAP Researcher - Mina Aganagic Lab",
-        date: "January 2026 – Present",
-        details: "Developing formalizations for KLRW-modules in Lean to contribute to the ainfinity-lean mathematical library.",
+        company: "Mathematical Formalization Project",
+        date: "2026 – Present",
+        details: "Developing formalizations in Lean to contribute to mathematical libraries.",
         id: "1772824849442exp2",
         title: "Formal Verification Researcher"
       },
       {
-        company: "UC Berkeley",
-        date: "August 2025 – December 2025",
-        details: "Authored comprehensive research on witness encryption and NP-hardness of learning; delivered technical presentations to graduate-level peers.",
+        company: "Complexity Theory Research Project",
+        date: "2025",
+        details: "Authored research on encryption and complexity-theoretic problems; delivered technical presentations.",
         id: "1772824849442exp3",
         title: "Graduate Complexity Theory Project Lead"
       },
       {
-        company: "UC Berkeley Course Staff",
-        date: "August 2025 – Present",
-        details: "Serving as a Teaching Intern for CS70 and a Reader for Physics 7B, facilitating student learning in discrete mathematics and thermodynamics.",
+        company: "Course Teaching Staff",
+        date: "2025 – Present",
+        details: "Teaching intern and reader, facilitating student learning in mathematics and physics courses.",
         id: "1772824849442exp4",
         title: "Teaching Intern & Reader"
       },
       {
-        company: "NGRD (Dr. Xuan Luo Lab)",
-        date: "December 2022 – 2023",
-        details: "Utilized ABINIT to optimize silicene dopants for SO2 adsorption by analyzing band-gap structures and charge transfer mechanisms.",
+        company: "Materials Simulation Lab",
+        date: "2022 – 2023",
+        details: "Utilized simulation tools to optimize dopants for molecular adsorption by analyzing electronic structures.",
         id: "1772824849442exp5",
         title: "Molecular Simulation Researcher"
       },
       {
-        company: "UCIxGATI (Siwy Research Lab)",
-        date: "June 2023 – August 2023",
-        details: "Fabricated and characterized nanopores for molecular identification; presented findings to 70+ scientific fellows and published a peer-reviewed paper on machine ethics.",
+        company: "Nanopore Research Lab",
+        date: "Summer 2023",
+        details: "Fabricated and characterized nanopores for molecular analysis; presented findings at scientific conferences and published peer-reviewed research.",
         id: "1772824849442exp6",
         title: "Ionic Channels and Nanopore Systems Intern"
       }
     ],
     education: [
       {
-        company: "University of California, Berkeley",
-        date: "September 2024 – Present",
-        details: "Bachelor of Science in Math and Computer Science (sGPA: 3.85). Advanced coursework includes Complexity Theory, Proving Theorems in Lean, Quantum Algorithms, Differential Topology, and Abstract Algebra.",
+        company: "University",
+        date: "2024 – Present",
+        details: "Bachelor of Science in Math and Computer Science. Advanced coursework includes Complexity Theory, Formal Verification, Quantum Algorithms, Differential Topology, and Abstract Algebra.",
         id: "1772824849442edu0",
         title: "Bachelor of Science"
       },
-      {
-        company: "California State University, Fullerton",
-        date: "August 2023 – 2024",
-        details: "Completed High School Supplementary Courses in Topology, Introduction to Quantum Mechanics, Modern Algebra, and Mathematical Probability.",
-        id: "1772824849442edu1",
-        title: "High School Supplementary Courses"
-      }
     ],
     projects: [
       {
-        description: "Developing LLM time speedup methods utilizing Grover’s algorithm to traverse tree-of-thought models; lead biweekly research discussions on quantum computing papers.",
+        description: "Developing quantum speedup methods for language models; lead research discussions on quantum computing.",
         id: "1772824849442proj0",
-        link: "https://github.com/qedsphere",
-        name: "Quantum Computing @ Berkeley",
+        link: "",
+        name: "Quantum Computing Research",
         technologies: "Quantum ML, Python, Grover's Algorithm"
       },
       {
